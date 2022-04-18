@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="four.css">
+</head>
+<body>
+    <h1 id="page-title">Break-even Analysis</h2>
+    <div>
+        <label for="fixed-cost">Change the Fixed Cost:</label>
+        <input type="number" id="fixed-cost"><br>
+        <button id="fixed-cost-submit">Change</button>
+        <label id="display-fixed-cost">It is currently 2000</label><br>
+    </div>
+    <form action="/four.js" method="get" id="new-product">
+        <h2 id="new-product-title">Add a new Product:</h2>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="price">Price:</label></td>
+                <td><input type="number" id="price"></td>
+            </tr>
+            <tr>
+                <td><label" for="variable-cost">Variable Cost:</label></td>
+                <td><input type="number" id="variable-cost"></td>
+            </tr>
+        </table>
+        <button type="submit">Add new Product</button>
+        <label for="text-file">or upload a file</label>
+        <input id="text-file" type="file"/>
+    </form>
+    <h2 id="table-title">Your Data:</h2>
+    <table id="table">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Variable Cost</td>
+                <td>Quantity</td>
+            </tr>
+        </thead>
+        <tbody id="table-items">
+        </tbody>
+    </table>
+    <button id="reset">Reset</button>
+    <script src="four.js"></script>
+</body>
+</html>

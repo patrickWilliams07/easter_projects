@@ -1,0 +1,90 @@
+body {
+    background: white;
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+}
+
+input  {
+    background-color: gainsboro;
+    border: 1px solid black;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2.5px;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: rebeccapurple;
+    transition: all 300ms ease-in-out;
+}
+
+#table {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    table-layout: fixed;
+}
+
+
+#table td {
+    padding: 5px 0.5vw;
+    border: 1px solid black;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    width: 20vw;
+    background-color: whitesmoke;
+}
+
+#table thead td {
+    font-weight: bold;
+    background-color: gainsboro;
+}
+
+#page-title {
+    margin: 5px;
+    font-size: 4em;
+}
+
+#new-product-title {
+    margin: 5px;
+    font-size: 2em;
+}
+
+#table-title {
+    text-align: center;
+    margin: 5px;
+    font-size: 2em;
+}
+
+#display-fixed-cost {
+    font-weight: bold;
+}
+
+#text-file {
+    background: rebeccapurple;
+    color: white;
+}
+
+#reset {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1em;
+    padding: 2.5px;
+}
